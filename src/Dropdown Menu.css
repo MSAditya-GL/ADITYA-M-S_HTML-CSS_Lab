@@ -1,0 +1,88 @@
+body {
+    margin: 0%;
+    height: auto;
+}
+
+header {
+    text-align: center;
+    background-color: red;
+    vertical-align: middle;
+}
+
+h1 {
+    padding: 10px;
+    margin: 0%;
+}
+
+.menu {
+    margin: 0%;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 10px;
+
+}
+
+.menu li a {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+div nav {
+    background-color: grey;
+    font-size: larger;
+}
+
+.menu li:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.menu li:nth-child(2):hover #DD1,
+.menu li:nth-child(3):hover #DD2 {
+    display: block;
+}
+
+.menu li:nth-child(2):active #DD1,
+.menu li:nth-child(3):active #DD2 {
+    display: block;
+}
+
+#DD1 {
+    display: none;
+    position: absolute;
+    width: auto;
+    max-width: 149px;
+    top: 99px;
+    left: 122px;
+    background-color: whitesmoke;
+    padding: 0%;
+}
+
+#DD2 {
+    display: none;
+    position: absolute;
+    width: auto;
+    max-width: 149px;
+    top: 99px;
+    left: 220px;
+    background-color: whitesmoke;
+    padding: 0%;
+}
+
+#DD1 li,
+#DD2 li {
+    display: block;
+}
+
+#DD1 li:hover,
+#DD2 li:hover {
+    background-color: wheat;
+}
+
+#DD1 li a,
+#DD2 li a {
+    color: steelblue;
+    font-size: 16px;
+}
